@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container {
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    overflow-y: scroll;
+    border: 9px solid seashell;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px blueviolet;
+    transition: all 7ms ease;
+    padding: 6px;
+    text-align: justify;
+}
+.container:hover {
+    box-shadow: 15px 15px 25px orange;
+    transition: all 7ms ease;
+    
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+.image-container{
+    text-align: center;
+}
+
+.image-container img{
+    width: 50px;
+    height: auto;
+}
+
+.more_info{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
