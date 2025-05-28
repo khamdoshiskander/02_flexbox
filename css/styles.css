@@ -34,6 +34,14 @@ section{
     transition: all 7ms ease;
     padding: 6px;
     text-align: justify;
+    padding: 40px;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: #c9f1bf;
+  text-align: center;
+  font-size: 120px;
 }
 
 .container:hover {
